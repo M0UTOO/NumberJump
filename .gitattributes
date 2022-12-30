@@ -1,1 +1,2 @@
 NumberJump/Library/* filter=lfs diff=lfs merge=lfs -text
+NumberJump/Library/PackageCache/com.unity.burst@1.8.2/.Runtime/libburst-llvm-14.dylib filter=lfs diff=lfs merge=lfs -text
