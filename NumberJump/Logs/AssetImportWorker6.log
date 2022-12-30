@@ -1,0 +1,917 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'fr' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Nino/Documents/NumberJump2/NumberJump
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+61754
+Successfully changed project path to: C:/Users/Nino/Documents/NumberJump2/NumberJump
+C:/Users/Nino/Documents/NumberJump2/NumberJump
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [147172] Host "[IP] 192.168.1.159 [Port] 0 [Flags] 2 [Guid] 2206691463 [EditorId] 2206691463 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-REOEK4D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [147172] Host "[IP] 192.168.1.159 [Port] 0 [Flags] 2 [Guid] 2206691463 [EditorId] 2206691463 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-REOEK4D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 132.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Nino/Documents/NumberJump2/NumberJump/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8081 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006132 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.486 seconds
+Domain Reload Profiling:
+	ReloadAssembly (487ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (352ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007645 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nino\Documents\NumberJump2\NumberJump\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nino\Documents\NumberJump2\NumberJump\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1092ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (922ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (515ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5708 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.2 MB). Loaded Objects now: 6146.
+Memory consumption went from 225.8 MB to 224.6 MB.
+Total: 3.255500 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.188000 ms MarkObjects: 2.330500 ms  DeleteObjects: 0.393600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 606352.244565 seconds.
+  path: Assets/Environment/ButtonSprites/1-Key.png
+  artifactKey: Guid(f3e0edc1bb680f944b86be32d170ead1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/1-Key.png using Guid(f3e0edc1bb680f944b86be32d170ead1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e1695c4d3b78670574821bff4469d2') in 0.068898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Environment/ButtonSprites/8-Key.png
+  artifactKey: Guid(2b69adb4a02cd4548b04b3d5060aa86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/8-Key.png using Guid(2b69adb4a02cd4548b04b3d5060aa86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccd17805a3f26097503b9ed6531127c') in 0.009775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Environment/ButtonSprites/9-Key.png
+  artifactKey: Guid(5ffa2514f61217142a14e55a163f6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/9-Key.png using Guid(5ffa2514f61217142a14e55a163f6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dd1964271611eb368f7ff0ea08f13a') in 0.010483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Environment/ButtonSprites/F-Key.png
+  artifactKey: Guid(1d48af39ad458ad4582fb5508b6ad80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/F-Key.png using Guid(1d48af39ad458ad4582fb5508b6ad80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd33227345613738ceb59c23180c83c') in 0.009221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Environment/ButtonSprites/H-Key.png
+  artifactKey: Guid(a601364d1b65f9247887fbd93966a12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/H-Key.png using Guid(a601364d1b65f9247887fbd93966a12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8ae1afb7d78a872a5f18431756f96c') in 0.013000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Environment/ButtonSprites/D-Key.png
+  artifactKey: Guid(65ef04fc1713ea94dbbf2a226961c8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/D-Key.png using Guid(65ef04fc1713ea94dbbf2a226961c8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b8c0b2cb8765cf77551b62ece07d76') in 0.013518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Environment/ButtonSprites/3-Key.png
+  artifactKey: Guid(ce71a53686de384468931ca737ede100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/3-Key.png using Guid(ce71a53686de384468931ca737ede100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8809d3b5179ace84900090912ffde2c2') in 0.007457 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006716 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nino\Documents\NumberJump2\NumberJump\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nino\Documents\NumberJump2\NumberJump\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1177ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (933ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5581 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.2 MB). Loaded Objects now: 6164.
+Memory consumption went from 218.4 MB to 217.2 MB.
+Total: 3.493600 ms (FindLiveObjects: 0.321700 ms CreateObjectMapping: 0.210200 ms MarkObjects: 2.480700 ms  DeleteObjects: 0.479700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007758 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nino\Documents\NumberJump2\NumberJump\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nino\Documents\NumberJump2\NumberJump\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (954ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5582 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.2 MB). Loaded Objects now: 6180.
+Memory consumption went from 218.4 MB to 217.2 MB.
+Total: 3.423100 ms (FindLiveObjects: 0.366400 ms CreateObjectMapping: 0.233000 ms MarkObjects: 2.380800 ms  DeleteObjects: 0.441600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010731 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nino\Documents\NumberJump2\NumberJump\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nino\Documents\NumberJump2\NumberJump\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (781ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5582 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.2 MB). Loaded Objects now: 6195.
+Memory consumption went from 218.5 MB to 217.3 MB.
+Total: 3.785900 ms (FindLiveObjects: 0.381400 ms CreateObjectMapping: 0.230500 ms MarkObjects: 2.748800 ms  DeleteObjects: 0.423800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1308.009788 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_57.png
+  artifactKey: Guid(b0522b9f44581e2418b6053c1f8650f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_57.png using Guid(b0522b9f44581e2418b6053c1f8650f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e67cecc21df520fa2322554fed1fa8') in 0.068142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_71.png
+  artifactKey: Guid(c0835dc6630703c41b861fbefde65ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_71.png using Guid(c0835dc6630703c41b861fbefde65ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290903c3cdffbc419085a8c2386176c9') in 0.011396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_87.png
+  artifactKey: Guid(200c116451310a449bb3cfd08be63465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_87.png using Guid(200c116451310a449bb3cfd08be63465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3796e561603bbbec9e46c267a7b54528') in 0.011463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_61.png
+  artifactKey: Guid(ebff07c29cbe92a48a66f915308b59d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_61.png using Guid(ebff07c29cbe92a48a66f915308b59d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bb4c6c4b89ffac7af0bbb8cb4410fa') in 0.010497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_81.png
+  artifactKey: Guid(9a258bfe44dfd3c47867de0abe730162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_81.png using Guid(9a258bfe44dfd3c47867de0abe730162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ccefdea680aff2adfae562313d5a45') in 0.012275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_96.png
+  artifactKey: Guid(65861aefa453d074289d2b9e18f8ce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_96.png using Guid(65861aefa453d074289d2b9e18f8ce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67a57c4ed52fe1b8a964bac381141dc') in 0.011517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_119.png
+  artifactKey: Guid(b55d2b405b5e8d044a979d3d6b1c471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_119.png using Guid(b55d2b405b5e8d044a979d3d6b1c471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075c12f893d5d3c46a048f2715e376f6') in 0.011063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_74.png
+  artifactKey: Guid(c23ee80e8f6c23b40bc4b8a3e3f963e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_74.png using Guid(c23ee80e8f6c23b40bc4b8a3e3f963e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13577949163b72b9ba2ab432917179f') in 0.012602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_70.png
+  artifactKey: Guid(a9fc6e509f83ae341bb110c04d5b7715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_70.png using Guid(a9fc6e509f83ae341bb110c04d5b7715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4af6046a9d5dad9510965fb4b2f114d') in 0.015361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_99.png
+  artifactKey: Guid(53780d2e7ff4d8440a28fb330f451ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_99.png using Guid(53780d2e7ff4d8440a28fb330f451ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e93cdc3316ca9a5348c3c1d00d5d8d') in 0.012410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_75.png
+  artifactKey: Guid(4f456ab474218694bbec96235cd03cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_75.png using Guid(4f456ab474218694bbec96235cd03cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adbb24faa893415f760af06b753b660') in 0.014204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_83.png
+  artifactKey: Guid(f40822702eda0c04182ce977b2fff147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_83.png using Guid(f40822702eda0c04182ce977b2fff147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9aa750cf74883b0046291d8abea216') in 0.013955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_62.png
+  artifactKey: Guid(a0d26adfb5299ba4e9da500a3cc252b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_62.png using Guid(a0d26adfb5299ba4e9da500a3cc252b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb685ebc368641f0e4b5f6e991758297') in 0.014152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_78.png
+  artifactKey: Guid(61ab9949d9a4650459a727a0c72c1b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_78.png using Guid(61ab9949d9a4650459a727a0c72c1b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e978554e4e4faa07998958a5498b6e') in 0.014698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_112.png
+  artifactKey: Guid(b2dccc854f8852341a228f120838c55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_112.png using Guid(b2dccc854f8852341a228f120838c55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d7bf1877bf58df0fec7d4580bcc719') in 0.013069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_65.png
+  artifactKey: Guid(236dda1f628ae9244905e82cc88269f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_65.png using Guid(236dda1f628ae9244905e82cc88269f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13926d285a2b010a71f4fba4a0659ae8') in 0.011943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_109.png
+  artifactKey: Guid(dce8774d765a243408fedfddd4d27e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_109.png using Guid(dce8774d765a243408fedfddd4d27e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71faaea02c4fc5591768010ba8b967c7') in 0.012891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_132.png
+  artifactKey: Guid(2db4aaaac2e6e81438fbdeef462a7f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_132.png using Guid(2db4aaaac2e6e81438fbdeef462a7f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb30fcd88cf38466128536abce276bf') in 0.011460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_121.png
+  artifactKey: Guid(13a114c2460c16445bfb405e31b8ce43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_121.png using Guid(13a114c2460c16445bfb405e31b8ce43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eef23b135fb619f8fcef30e7e50bd9e') in 0.011911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_138.png
+  artifactKey: Guid(c51a54bddb9c29a4c8f9414ea5065e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_138.png using Guid(c51a54bddb9c29a4c8f9414ea5065e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedc814c67f86d4fb78b82a48f4f32f5') in 0.011178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_155.png
+  artifactKey: Guid(2615d1826ef349a40b20bda21e6c55d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_155.png using Guid(2615d1826ef349a40b20bda21e6c55d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a685d3eb31ccea45081d0c34d5684b7') in 0.013321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_152.png
+  artifactKey: Guid(aabaf7593b2428548aebeb3f61360b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_152.png using Guid(aabaf7593b2428548aebeb3f61360b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d86f3c49524f4e8d156e76b95c81e7') in 0.011075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_143.png
+  artifactKey: Guid(737b29e44a9274b4daaec5327a2497c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_143.png using Guid(737b29e44a9274b4daaec5327a2497c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bb7dcafa90ea11a67258f22a7c6228') in 0.010915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_144.png
+  artifactKey: Guid(17e54e9fd34da464ebae3f7e8c567e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_144.png using Guid(17e54e9fd34da464ebae3f7e8c567e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a073e585cf60d128003a40129033b5') in 0.011225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_122.png
+  artifactKey: Guid(28ca53d0294e73a44865ce1c87fd740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_122.png using Guid(28ca53d0294e73a44865ce1c87fd740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ec283bed658d09e9e05afe7a65f106') in 0.012060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_126.png
+  artifactKey: Guid(059b9efdcf737be429b00d8928186d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_126.png using Guid(059b9efdcf737be429b00d8928186d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f7734e609ad504ae3206ce14c9f5d6') in 0.011675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_137.png
+  artifactKey: Guid(b68e2fb73d52dc845b24a89dae6860e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_137.png using Guid(b68e2fb73d52dc845b24a89dae6860e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d582d18344541e9a2fb2ce61c1ab0f4') in 0.011971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_153.png
+  artifactKey: Guid(2495ba84c0d532b48867760b903764a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_153.png using Guid(2495ba84c0d532b48867760b903764a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9451e6ca5f4effed986ab2f5b7a14e8a') in 0.012573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_101.png
+  artifactKey: Guid(86cfd7b3fecad1648a4d33ecc50c8b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_101.png using Guid(86cfd7b3fecad1648a4d33ecc50c8b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db99623d1fcca2d560cdba83a3f2a3b5') in 0.012621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_69.png
+  artifactKey: Guid(73f452d2bd311b0429ac417e7495e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_69.png using Guid(73f452d2bd311b0429ac417e7495e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c018257a37898705fb6045966affb3') in 0.010548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_89.png
+  artifactKey: Guid(4b5e818d8548e3c49b06a0680c2a0c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_89.png using Guid(4b5e818d8548e3c49b06a0680c2a0c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9520fa6f5c81d6cfb7dd4a3a11740f3') in 0.011769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_80.png
+  artifactKey: Guid(ee11d20655e39e34daca1327686c981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_80.png using Guid(ee11d20655e39e34daca1327686c981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9ef0336985677eb3148f98814188d1') in 0.012833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_113.png
+  artifactKey: Guid(a190fc3d7ea72e74f9449db19755d351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_113.png using Guid(a190fc3d7ea72e74f9449db19755d351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e730c45065936c5657d6651cc33dd17c') in 0.014218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_100.png
+  artifactKey: Guid(17bd01f06e41c444890a880f378d63f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_100.png using Guid(17bd01f06e41c444890a880f378d63f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc47efdddc179a0b4760ccc90c3a081') in 0.011109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_92.png
+  artifactKey: Guid(0d889c0bb91e19e4f8afcf26418e7d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_92.png using Guid(0d889c0bb91e19e4f8afcf26418e7d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98187d946f624e3ee053648adb27724') in 0.010163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_76.png
+  artifactKey: Guid(144d957f2363d404da6e2882dca67d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_76.png using Guid(144d957f2363d404da6e2882dca67d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b7459cc7c7e6eae90dd1c855340bc4') in 0.010915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_168.png
+  artifactKey: Guid(3318a3dda0aa02c42816275f83597420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_168.png using Guid(3318a3dda0aa02c42816275f83597420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafe5b17f457da42c804878ff2a61eab') in 0.011566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_176.png
+  artifactKey: Guid(c1b27f03ca58606488fd8797499f731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_176.png using Guid(c1b27f03ca58606488fd8797499f731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d868e4788fe7d49c0812a8f7d285f74') in 0.012214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_180.png
+  artifactKey: Guid(77133c121861d4f498f670c4548631bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_180.png using Guid(77133c121861d4f498f670c4548631bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c13a222a51054b63ae3ae89507fb07') in 0.011402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_208.png
+  artifactKey: Guid(159bfacef9de44c4a863c59e6cb4f1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_208.png using Guid(159bfacef9de44c4a863c59e6cb4f1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4b0e103dc559e7d9af7d89ae26cb64') in 0.011700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_181.png
+  artifactKey: Guid(c9dfafb3bb5d44742ae6fbed3151acf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_181.png using Guid(c9dfafb3bb5d44742ae6fbed3151acf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5170fb8fc2b0c9d3e33eea878259ef23') in 0.010406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_189.png
+  artifactKey: Guid(df49278e3c489aa49818b735095e92ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_189.png using Guid(df49278e3c489aa49818b735095e92ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f072ee86089fec685c104c570d1a6b') in 0.010789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_193.png
+  artifactKey: Guid(4f36f4fa318c3a54cbd9557d990ee94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_193.png using Guid(4f36f4fa318c3a54cbd9557d990ee94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca76584a1ed896b92c76ccc3453bac6') in 0.013904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_190.png
+  artifactKey: Guid(27eb97f0a0cb1224e83a9b0fd85fc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_190.png using Guid(27eb97f0a0cb1224e83a9b0fd85fc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16734c39fcc018487bf32bf4a426400d') in 0.010810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_157.png
+  artifactKey: Guid(d05d9b925d5b6ec45b8500864cf7c340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_157.png using Guid(d05d9b925d5b6ec45b8500864cf7c340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba67d56cfd4721214c0234830fc37964') in 0.009449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_191.png
+  artifactKey: Guid(118c27a770ad00049ae37f92161309a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_191.png using Guid(118c27a770ad00049ae37f92161309a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75537f9d3e16d9d2d22c1d2d5277028c') in 0.009635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_192.png
+  artifactKey: Guid(da08b208c784426408fd2776ea9f7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_192.png using Guid(da08b208c784426408fd2776ea9f7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6696bfe5eb905735c49651f83d100130') in 0.008911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_165.png
+  artifactKey: Guid(705235d9dde01814ab6bab78a3e3ab9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_165.png using Guid(705235d9dde01814ab6bab78a3e3ab9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b728df667274a7819eaf8c6b09470a03') in 0.010859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_205.png
+  artifactKey: Guid(90f249405539e544a9f5151080dc0423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_205.png using Guid(90f249405539e544a9f5151080dc0423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00a448456a8a987ac18268c611505b0') in 0.011161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_169.png
+  artifactKey: Guid(bbb7b51142f808c4ca6bf18c30ce3cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_169.png using Guid(bbb7b51142f808c4ca6bf18c30ce3cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d03280cca7db6207f6f0f9f13bb3d14') in 0.011346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_207.png
+  artifactKey: Guid(14e5b3a10aa0ca441aa0aec9a62d58c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_207.png using Guid(14e5b3a10aa0ca441aa0aec9a62d58c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdff930cf2765b8dc9374255fa7060ea') in 0.011673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_159.png
+  artifactKey: Guid(e68a66a1608f5fb438827571f7bf6c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_159.png using Guid(e68a66a1608f5fb438827571f7bf6c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc62209a91fbbc8172eaea05cb17a97') in 0.011279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_174.png
+  artifactKey: Guid(6c6f33c7a7f975a43beedb3c9f43b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_174.png using Guid(6c6f33c7a7f975a43beedb3c9f43b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716db2458e11ca14990fcbd432cd8b2b') in 0.012210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_178.png
+  artifactKey: Guid(f01de9c7d67dd5c4ba6a1d608629845f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_178.png using Guid(f01de9c7d67dd5c4ba6a1d608629845f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581837a960fa71e41ed6190aa6b562fb') in 0.012531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_197.png
+  artifactKey: Guid(2fc2e91234321de43b8c3499e2dc785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_197.png using Guid(2fc2e91234321de43b8c3499e2dc785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbada6e3ba4425c1f44cc943ede4f12') in 0.012389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_156.png
+  artifactKey: Guid(9e342e78a137b0542bee8af2f1238934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_156.png using Guid(9e342e78a137b0542bee8af2f1238934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b915276538a2e0cc882a17d9fd70b6') in 0.011946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Environment/ButtonSprites/Space-Key.png
+  artifactKey: Guid(53874d9d14c54bc419b479041b2692dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/Space-Key.png using Guid(53874d9d14c54bc419b479041b2692dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accd887339ac0e7d38a73f1c70cc0195') in 0.014561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Environment/ButtonSprites/W-Key.png
+  artifactKey: Guid(96b6d423d7b7c9f4eb32c0cbd03ccdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/W-Key.png using Guid(96b6d423d7b7c9f4eb32c0cbd03ccdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d5edfdd8620b864e51b5f46725f341') in 0.013540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment/ButtonSprites/X-Key.png
+  artifactKey: Guid(97d266c50b04bcf41aca837191d5e721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/X-Key.png using Guid(97d266c50b04bcf41aca837191d5e721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4353f527d819e40287a020febc4ae600') in 0.011343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Environment/ButtonSprites/Q-Key.png
+  artifactKey: Guid(a85efa4616d3be74cafbbffc0a42542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/Q-Key.png using Guid(a85efa4616d3be74cafbbffc0a42542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9bfa15ef95401bc6660d7b0814d39a') in 0.012875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_201.png
+  artifactKey: Guid(676fa4697f1490848b45fedb8030f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_201.png using Guid(676fa4697f1490848b45fedb8030f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc8a71f437ab6f6693d97c9eb0a3c6b') in 0.010645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_64.png
+  artifactKey: Guid(5f69e10cce02f6a43a86e0bd29790ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_64.png using Guid(5f69e10cce02f6a43a86e0bd29790ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba168a35d017fdcf45b45b8c307ac02') in 0.010676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment/ButtonSprites/M-Key.png
+  artifactKey: Guid(462e4edc8a75f244db2991ee46881192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/M-Key.png using Guid(462e4edc8a75f244db2991ee46881192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48c659fb045187bf2ec400e7b4aea71') in 0.010824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Environment/ButtonSprites/Y-Key.png
+  artifactKey: Guid(3bed89c6a0df2624798a6e6e7126b9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/Y-Key.png using Guid(3bed89c6a0df2624798a6e6e7126b9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037558dbf7a71619a159354ec59b9388') in 0.010456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_134.png
+  artifactKey: Guid(1ba3a720ebdbb634085a1b6479d377ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_134.png using Guid(1ba3a720ebdbb634085a1b6479d377ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9e97aed597058addeb5da753f6deb6') in 0.009544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_167.png
+  artifactKey: Guid(c65128afd1e924247a1108812376fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_167.png using Guid(c65128afd1e924247a1108812376fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006b019c38ebc062e58af2d0dcb7e945') in 0.010909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_105.png
+  artifactKey: Guid(591e401611a5c024cb0a8139e8b37080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_105.png using Guid(591e401611a5c024cb0a8139e8b37080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf403f390c7a1bc6226265ca9a8b08c2') in 0.012943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_111.png
+  artifactKey: Guid(00bcc8e218dde744eb88c2a14c32cce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_111.png using Guid(00bcc8e218dde744eb88c2a14c32cce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dcf22cd67318c06e97181b17988e4e') in 0.011372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_182.png
+  artifactKey: Guid(02367329e58636b44bbfe1830ff195f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_182.png using Guid(02367329e58636b44bbfe1830ff195f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7504001039f32c71019ec58c8ee519e4') in 0.012428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Environment/ButtonSprites/Shift-Key.png
+  artifactKey: Guid(dee2bfc49ecf61a4f9079eeb8473f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/Shift-Key.png using Guid(dee2bfc49ecf61a4f9079eeb8473f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3327e7cb8fd420d1e13cd2558d63b5e') in 0.014275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_164.png
+  artifactKey: Guid(ef0407b20c7a1c741bcfd99cb09ede5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_164.png using Guid(ef0407b20c7a1c741bcfd99cb09ede5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f9e0f99fb616adff6e63df158b5fd2') in 0.013146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_68.png
+  artifactKey: Guid(d91a09cb16217b54481361f40a25f25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_68.png using Guid(d91a09cb16217b54481361f40a25f25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc64e332d7f5954bdc8843461fe88dd') in 0.013814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment/ButtonSprites/T-Key.png
+  artifactKey: Guid(0370f0ddf052de34dbce9e5d4b9d4699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/T-Key.png using Guid(0370f0ddf052de34dbce9e5d4b9d4699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e90b4fc96b20d4f0dfbb64660341b9') in 0.014104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment/ButtonSprites/R-Key.png
+  artifactKey: Guid(b286407be21d96949af5ce7da6074445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/R-Key.png using Guid(b286407be21d96949af5ce7da6074445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45433afb3a3ffdc03329236aef2e44d6') in 0.011785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/ButtonSprites/S-Key.png
+  artifactKey: Guid(3a7e104cc18b66f40abd42947e9d84ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/S-Key.png using Guid(3a7e104cc18b66f40abd42947e9d84ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d778ef2d58f10d9f0d19696d47703c') in 0.011197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_214.png
+  artifactKey: Guid(c98ce49902f895a40a7d6bb4c7694d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_214.png using Guid(c98ce49902f895a40a7d6bb4c7694d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e331d2c934ceca86da931befe90f854c') in 0.010957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_212.png
+  artifactKey: Guid(5c74f691949b4dc4488e985018a1b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_212.png using Guid(5c74f691949b4dc4488e985018a1b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cce584a04768fbbd023970bef8923ac') in 0.012117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_203.png
+  artifactKey: Guid(32328b9e18ef9294ab18c0f3caaeaab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_203.png using Guid(32328b9e18ef9294ab18c0f3caaeaab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be90e6ed5136a64e6f0ee2009e176fa') in 0.010511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_162.png
+  artifactKey: Guid(d5f01b15223db8449bd2f498df1aee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_162.png using Guid(d5f01b15223db8449bd2f498df1aee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa96926ae98beb4bcce872b384c157e') in 0.010061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_175.png
+  artifactKey: Guid(85c731116eea5da47ad8cb8c2f91b449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_175.png using Guid(85c731116eea5da47ad8cb8c2f91b449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255460003210b0a6d9f819fb64f5143c') in 0.009093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_187.png
+  artifactKey: Guid(113f94deb15399842939d3c58197a319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_187.png using Guid(113f94deb15399842939d3c58197a319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a41d9643254854067b493e3bc73ed9f') in 0.009049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_206.png
+  artifactKey: Guid(3269e88076975d241a13f9b2e7f8fbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_206.png using Guid(3269e88076975d241a13f9b2e7f8fbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f98610782ed9138f06329cd1230cee') in 0.011834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_198.png
+  artifactKey: Guid(6b2a583a5f1b4a94ab07d0232263c1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_198.png using Guid(6b2a583a5f1b4a94ab07d0232263c1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6271b42903578e29dcebfb8d0f893495') in 0.011534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_151.png
+  artifactKey: Guid(38476aca4792e4c40a92dc905eb969be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_151.png using Guid(38476aca4792e4c40a92dc905eb969be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6781dafe07177338820239fd7d84b89') in 0.011187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_116.png
+  artifactKey: Guid(edb1ae105cda2e94c98d5b3cc7ff5865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_116.png using Guid(edb1ae105cda2e94c98d5b3cc7ff5865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33537aefe54406f671fef23f105cb12c') in 0.010421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Environment/ButtonSprites/Z-Key.png
+  artifactKey: Guid(968e5caa0d85103439643d7e8b9a0901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/Z-Key.png using Guid(968e5caa0d85103439643d7e8b9a0901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409d7e6dded688d513e65024047d868c') in 0.011414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_142.png
+  artifactKey: Guid(8fc7c70ab582f824092c15a94bec5c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_142.png using Guid(8fc7c70ab582f824092c15a94bec5c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b234fbc27fc4bb1b8f95c393743cc1') in 0.008710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_149.png
+  artifactKey: Guid(e0915a765733f4a4097c5aa3ea80b9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_149.png using Guid(e0915a765733f4a4097c5aa3ea80b9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9767fbeff73bde89115424fc3fac3755') in 0.009193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Environment/ButtonSprites/keyboard_104.png
+  artifactKey: Guid(f98bd298bcaa6384da7d32b43eca54a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/ButtonSprites/keyboard_104.png using Guid(f98bd298bcaa6384da7d32b43eca54a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2311ddbe251a316d72cdcbfe383742c') in 0.008475 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
