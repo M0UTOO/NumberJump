@@ -13,7 +13,7 @@ public class PlayerRaycasting : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         Debug.DrawRay(this.transform.position, this.transform.forward * distanceToSee, Color.red);
 
@@ -25,4 +25,5 @@ public class PlayerRaycasting : MonoBehaviour
             }
         }
     }
+    */
 }
