@@ -6797,6 +6797,7 @@ Transform:
   - {fileID: 1849454676}
   - {fileID: 874518583}
   - {fileID: 606871955}
+  - {fileID: 706497879}
   m_Father: {fileID: 1974429173}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10745,8 +10746,9 @@ GameObject:
   m_Component:
   - component: {fileID: 168583819}
   - component: {fileID: 168583820}
+  - component: {fileID: 168583821}
   m_Layer: 0
-  m_Name: SpikeWall (1)
+  m_Name: SpikeWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10876,6 +10878,20 @@ MonoBehaviour:
   moveForward: 0
   playerCollider: {fileID: 535219496}
   zoneToRun: {fileID: 1548916505}
+--- !u!114 &168583821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168583818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532a9b98035961244bf4b495196b39e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCollider: {fileID: 535219496}
+  zoneToKill: {fileID: 1609247750}
 --- !u!1 &170294339
 GameObject:
   m_ObjectHideFlags: 0
@@ -15340,6 +15356,7 @@ Transform:
   - {fileID: 1326812712}
   - {fileID: 850953490}
   - {fileID: 367277330}
+  - {fileID: 262881767}
   m_Father: {fileID: 817971871}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16798,6 +16815,66 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259594776}
   m_Mesh: {fileID: 1005761881}
+--- !u!1 &262881766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 262881767}
+  - component: {fileID: 262881769}
+  - component: {fileID: 262881768}
+  m_Layer: 0
+  m_Name: ZoneToKill (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &262881767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262881766}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.8793449, y: 48.48, z: -127.455025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 234599250}
+  m_RootOrder: 411
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &262881768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262881766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532a9b98035961244bf4b495196b39e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCollider: {fileID: 535219496}
+  zoneToKill: {fileID: 262881769}
+--- !u!65 &262881769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262881766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.754486, y: 1.090507, z: 65.50956}
+  m_Center: {x: 0.7771721, y: 0.045253515, z: 15.367573}
 --- !u!1 &262900829
 GameObject:
   m_ObjectHideFlags: 0
@@ -46652,6 +46729,66 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705398394}
   m_Mesh: {fileID: 1797737139}
+--- !u!1 &706497878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 706497879}
+  - component: {fileID: 706497881}
+  - component: {fileID: 706497880}
+  m_Layer: 0
+  m_Name: ZoneToKill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &706497879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706497878}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -45.61, y: 45.79, z: 66.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 109309700}
+  m_RootOrder: 552
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &706497880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706497878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532a9b98035961244bf4b495196b39e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCollider: {fileID: 535219496}
+  zoneToKill: {fileID: 706497881}
+--- !u!65 &706497881
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706497878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.754486, y: 1.090507, z: 76.451965}
+  m_Center: {x: 0.7771721, y: 0.045253515, z: 4.684952}
 --- !u!1 &706854685
 GameObject:
   m_ObjectHideFlags: 0
@@ -79067,11 +79204,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109876890}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.0752258}
+  m_Center: {x: 0, y: 0, z: -0.5376129}
 --- !u!23 &1109876893
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -116667,11 +116804,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609247748}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.0045476}
+  m_Center: {x: 1.8393571e-11, y: 0, z: -0.5022741}
 --- !u!23 &1609247751
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -124521,6 +124658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1737116558}
   - component: {fileID: 1737116559}
+  - component: {fileID: 1737116560}
   m_Layer: 0
   m_Name: SpikeWall
   m_TagString: Untagged
@@ -124652,6 +124790,20 @@ MonoBehaviour:
   moveForward: 0
   playerCollider: {fileID: 535219496}
   zoneToRun: {fileID: 1454546579}
+--- !u!114 &1737116560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737116557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532a9b98035961244bf4b495196b39e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCollider: {fileID: 535219496}
+  zoneToKill: {fileID: 1109876892}
 --- !u!1 &1739005678
 GameObject:
   m_ObjectHideFlags: 0

@@ -382,6 +382,7 @@
 "Assets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs"
 "Assets/Scripts/BasicRigidBodyPush.cs"
 "Assets/Scripts/ButtonPress.cs"
+"Assets/Scripts/DeathOnSpikeTouch.cs"
 "Assets/Scripts/DisplayDigit.cs"
 "Assets/Scripts/FirstPersonController.cs"
 "Assets/Scripts/PlayerRaycasting.cs"
