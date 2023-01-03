@@ -385,6 +385,7 @@
 "Assets/Scripts/DeathOnSpikeTouch.cs"
 "Assets/Scripts/DisplayDigit.cs"
 "Assets/Scripts/FirstPersonController.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerRaycasting.cs"
 "Assets/Scripts/SpikeWallMovement.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
