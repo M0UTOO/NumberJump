@@ -16,16 +16,19 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // use the p key to pause the game
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        if(EventsOnStart.IsStarted == true)
         {
-            if (GameIsPaused)
+            // use the p key to pause the game
+            if (Keyboard.current.escapeKey.wasPressedThisFrame)
             {
-                Resume();
-            }
-            else
-            {
-                Pause();
+                if (GameIsPaused)
+                {
+                    Resume();
+                }
+                else
+                {
+                    Pause();
+                }
             }
         }
     }
