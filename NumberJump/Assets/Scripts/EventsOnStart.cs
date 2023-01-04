@@ -22,15 +22,16 @@ public class EventsOnStart : MonoBehaviour
         textNumberField_text.text = random.ToString();
         cameraFollow.SetActive(false);
         Cursor.lockState = CursorLockMode.None;
+        Time.timeScale = 0f;
 
     }
 
     public void Resume()
     {
-        Debug.Log("Resume");
         Cursor.lockState = CursorLockMode.Locked;
         cameraFollow.SetActive(true);
         buttonMenuUI.SetActive(false);
         IsStarted = true;
+        Time.timeScale = 1f;
     }
 }

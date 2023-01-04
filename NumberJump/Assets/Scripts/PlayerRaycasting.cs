@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerRaycasting : MonoBehaviour
 {
     public float distanceToSee;
+    public GameObject buttonMenuUI;
+    public GameObject cameraFollow;
 
     // Start is called before the first frame update
     void Start()
@@ -12,18 +15,22 @@ public class PlayerRaycasting : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    /*void Update()
+    public void Update()
     {
-        Debug.DrawRay(this.transform.position, this.transform.forward * distanceToSee, Color.red);
-
-        if(Physics.Raycast(this.transform.position, this.transform.forward, out RaycastHit hit, distanceToSee))
+        if(Mouse.current.leftButton.wasPressedThisFrame)
         {
-            if(hit.collider.gameObject.tag == "Button")
+            RaycastHit hit;
+            if(Physics.Raycast(transform.position, transform.forward, out hit, distanceToSee))
             {
-                hit.collider.gameObject.GetComponent<ButtonPress>().ButtonClicked();
+                if(hit.collider.tag == "Button")
+                {
+                    EventsOnStart.IsStarted = false;
+                    buttonMenuUI.SetActive(true);
+                    Cursor.lockState = CursorLockMode.None;
+                    cameraFollow.SetActive(false);
+                    Time.timeScale = 0f;
+                }
             }
         }
     }
-    */
 }

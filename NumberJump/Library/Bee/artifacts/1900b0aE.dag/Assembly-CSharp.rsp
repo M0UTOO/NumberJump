@@ -386,6 +386,7 @@
 "Assets/Scripts/DisplayDigit.cs"
 "Assets/Scripts/EventsOnStart.cs"
 "Assets/Scripts/FirstPersonController.cs"
+"Assets/Scripts/Keypad.cs"
 "Assets/Scripts/LevelMenu.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/OptionsMenu.cs"
