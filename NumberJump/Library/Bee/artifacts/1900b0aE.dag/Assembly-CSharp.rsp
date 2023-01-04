@@ -389,6 +389,7 @@
 "Assets/Scripts/Keypad.cs"
 "Assets/Scripts/LevelMenu.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/NumberCheck.cs"
 "Assets/Scripts/OptionsMenu.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerRaycasting.cs"
