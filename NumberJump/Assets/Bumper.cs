@@ -5,7 +5,6 @@ using UnityEngine;
 public class Bumper : MonoBehaviour
 {
     public float bumperForce = 10000f;
-    bool isUsable = true;
     public CharacterController controller;
     public GameObject playerCapsule;
     public GameObject bumperCollider;
