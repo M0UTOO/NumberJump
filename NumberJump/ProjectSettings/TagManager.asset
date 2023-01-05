@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - Button
+  - Target
   layers:
   - Default
   - TransparentFX
