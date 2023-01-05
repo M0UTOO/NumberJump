@@ -12,7 +12,7 @@ public class Bumper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if((bumperCollider.GetComponent<Collider>().bounds.Intersects(playerCapsule.GetComponent<Collider>().bounds) && isUsable == true))
+        if(bumperCollider.GetComponent<Collider>().bounds.Intersects(playerCapsule.GetComponent<Collider>().bounds))
         {
             controller.Move(transform.up * bumperForce * Time.deltaTime);
         }
