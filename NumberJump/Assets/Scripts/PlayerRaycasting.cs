@@ -33,7 +33,6 @@ public class PlayerRaycasting : MonoBehaviour
                 }
                 if(hit.collider.tag == "Target")
                 {
-                    Debug.Log("Target");
                     player.transform.position = hit.collider.transform.position + new Vector3(0, 5, 0);
                 }
             }
