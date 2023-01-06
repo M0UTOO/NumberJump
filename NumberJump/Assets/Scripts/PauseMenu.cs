@@ -19,7 +19,7 @@ public class PauseMenu : MonoBehaviour
         if(EventsOnStart.IsStarted == true)
         {
             // use the p key to pause the game
-            if (Keyboard.current.escapeKey.wasPressedThisFrame)
+            if (Keyboard.current.escapeKey.wasPressedThisFrame || Keyboard.current.pKey.wasPressedThisFrame)
             {
                 if (GameIsPaused)
                 {
